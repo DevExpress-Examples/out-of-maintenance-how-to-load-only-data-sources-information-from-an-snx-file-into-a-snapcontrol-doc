@@ -10,6 +10,9 @@
 <!-- default file list end -->
 # How to load only Data Sources information from an SNX file into a SnapControl document
 
+> **Note**
+>
+> As you may already know, the [WinForms Snap control](https://docs.devexpress.com/WindowsForms/11373/controls-and-libraries/snap) and [Snap Report API](https://docs.devexpress.com/OfficeFileAPI/15188/snap-report-api) are now in maintenance support mode. No new features or capabilities are incorporated into these products. We recommend that you use [DevExpress Reporting](https://docs.devexpress.com/XtraReports/2162/reporting) tool to generate, edit, print, and export your business reports/documents.
 
 <p>The main idea of the demonstrated approach is to load a corresponding SNX template into a temporary SnapDocumentServer instance and copy items from the <strong>SnapDocumentServer.Document.DataSources</strong> collection into a current SnapControl document.<br />In this sample, data sources are loaded from two templates: "<strong>nwindDataSourceTemplate.snx</strong>" and "<strong>carsDataBaseTemplate.snx</strong>".<br />In the attachment you can find a video which demonstrates how these templates were created.<br />Please take special note that the use of the <strong>SnapDocumentServer</strong> instance in an application requires adding a reference to the <strong>DevExpress.Docs</strong> assembly. This assembly is shipped only with the <strong>Universal</strong> subscription or with a separate <strong>Document Server </strong>subscription:<br /><a href="https://www.devexpress.com/Subscriptions/">https://www.devexpress.com/Subscriptions/</a></p>
 
